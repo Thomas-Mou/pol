@@ -1,0 +1,33 @@
+{
+ "properties": {
+  "displayName": "test_init",
+  "policyType": "Custom",
+  "description": "",
+  "metadata": {
+   "category": "test",
+   "createdBy": "78635b2e-1bc2-4109-8c5c-ca49474d18a6",
+   "createdOn": "2021-02-25T15:04:27.8533206Z",
+   "updatedBy": "78635b2e-1bc2-4109-8c5c-ca49474d18a6",
+   "updatedOn": "2021-02-25T15:07:03.618001Z"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Azure subscriptions should have a log profile for Activity Log_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7796937f-307b-4598-941c-67d3a05ebfe7",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Auditing on SQL server should be enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/GLOBAL_TEST/providers/Microsoft.Authorization/policySetDefinitions/624cfa3ee46d413991e74972",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "624cfa3ee46d413991e74972"
+}
