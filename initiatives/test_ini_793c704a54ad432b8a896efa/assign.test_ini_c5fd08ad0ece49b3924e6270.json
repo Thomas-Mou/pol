@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "test ini",
+  "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/GLOBAL_TEST/providers/Microsoft.Authorization/policySetDefinitions/793c704a54ad432b8a896efa",
+  "scope": "/providers/Microsoft.Management/managementGroups/GLOBAL_TEST",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Thomas MOURET",
+   "parameterScopes": {},
+   "createdBy": "78635b2e-1bc2-4109-8c5c-ca49474d18a6",
+   "createdOn": "2021-03-30T13:25:47.65975Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/GLOBAL_TEST/providers/Microsoft.Authorization/policyAssignments/c5fd08ad0ece49b3924e6270",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "c5fd08ad0ece49b3924e6270"
+}

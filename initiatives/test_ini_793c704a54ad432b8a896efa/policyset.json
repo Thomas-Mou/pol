@@ -1,0 +1,56 @@
+{
+ "properties": {
+  "displayName": "test ini",
+  "policyType": "Custom",
+  "description": "",
+  "metadata": {
+   "createdBy": "78635b2e-1bc2-4109-8c5c-ca49474d18a6",
+   "createdOn": "2021-03-30T13:17:43.0109402Z",
+   "updatedBy": "78635b2e-1bc2-4109-8c5c-ca49474d18a6",
+   "updatedOn": "2021-03-30T13:25:27.8168718Z"
+  },
+  "parameters": {
+   "tag-corr": {
+    "type": "String",
+    "metadata": {
+     "displayName": "tag-corr",
+     "description": "tag-corr"
+    },
+    "defaultValue": "GOV-CORRELATION"
+   },
+   "tag-name": {
+    "type": "String",
+    "metadata": {
+     "displayName": "tag-name"
+    },
+    "defaultValue": "GOV-NAME"
+   }
+  },
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Federated-Chanel-Policies-Audit-Tags_1",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementgroups/GLOBAL_TEST/providers/Microsoft.Authorization/policyDefinitions/Federated-Chanel-Policies-Audit-Tags",
+    "parameters": {
+     "tagName": {
+      "value": "[parameters('tag-corr')]"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Federated-Chanel-Policies-Audit-Tags_2",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementgroups/GLOBAL_TEST/providers/Microsoft.Authorization/policyDefinitions/Federated-Chanel-Policies-Audit-Tags",
+    "parameters": {
+     "tagName": {
+      "value": "[parameters('tag-name')]"
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/GLOBAL_TEST/providers/Microsoft.Authorization/policySetDefinitions/793c704a54ad432b8a896efa",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "793c704a54ad432b8a896efa"
+}
