@@ -1,0 +1,44 @@
+{
+ "properties": {
+  "displayName": "Federated-Core-Initiative-Deploy-Governance-Sub_TEST",
+  "policyType": "Custom",
+  "description": "Contains Federated-Core-Initiative to Deploy Governance policies",
+  "metadata": {
+   "category": "Federated-Core-Policies",
+   "createdBy": "ba1c0023-3d8c-4a52-a606-662618382297",
+   "createdOn": "2022-03-15T08:54:14.63363Z",
+   "updatedBy": "78635b2e-1bc2-4109-8c5c-ca49474d18a6",
+   "updatedOn": "2022-03-15T15:56:13.3520631Z",
+   "parameterScopes": {
+    "resourceGroupLocation": "/providers/Microsoft.Management/managementgroups/GLOBAL_TEST",
+    "eventHubDetails": "/subscriptions/bf83b319-ca6a-474c-9f79-09154189d1d9/resourcegroups/tmo/providers/microsoft.eventhub/namespaces/testtmo/eventhubs/test"
+   }
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "11447868017935727373",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cdfcce10-4578-4ecd-9703-530938e4abcb",
+    "parameters": {
+     "resourceGroupName": {
+      "value": "test-rg-tmo"
+     },
+     "resourceGroupLocation": {
+      "value": "west europe"
+     },
+     "createResourceGroup": {
+      "value": true
+     },
+     "eventHubDetails": {
+      "value": "/subscriptions/bf83b319-ca6a-474c-9f79-09154189d1d9/resourcegroups/tmo/providers/microsoft.eventhub/namespaces/testtmo/eventhubs/test/authorizationrules/toto"
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/providers/Microsoft.Management/managementgroups/GLOBAL_TEST/providers/Microsoft.Authorization/policySetDefinitions/Federated-Core-Initiative-Deploy-GOV-Sub_TEST",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "Federated-Core-Initiative-Deploy-GOV-Sub_TEST"
+}
