@@ -1,0 +1,33 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "2b49254c-9422-40d4-94d4-009c4806d62a",
+  "tenantId": "e6cbec2f-2f23-43ca-82c4-51a7c9b71e7a",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "Federated-Core-Policies-Deploy-Governance_Subscription-TEST",
+  "policyDefinitionId": "/providers/Microsoft.Management/managementgroups/GLOBAL_TEST/providers/Microsoft.Authorization/policySetDefinitions/Federated-Core-Initiative-Deploy-GOV-Sub_TEST",
+  "scope": "/providers/Microsoft.Management/managementGroups/GLOBAL_TEST",
+  "notScopes": [
+   "/providers/Microsoft.Management/managementGroups/GLOBAL_TEST_EX"
+  ],
+  "parameters": {},
+  "description": "Policy Assignment ",
+  "metadata": {
+   "category": "Federated-Core-Policies",
+   "createdBy": "ba1c0023-3d8c-4a52-a606-662618382297",
+   "createdOn": "2022-03-15T10:33:03.1086585Z",
+   "updatedBy": "ba1c0023-3d8c-4a52-a606-662618382297",
+   "updatedOn": "2022-03-15T16:55:03.0954261Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/GLOBAL_TEST/providers/Microsoft.Authorization/policyAssignments/FCP-Deploy-Tags-Sub-TEST",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "FCP-Deploy-Tags-Sub-TEST",
+ "location": "westeurope"
+}

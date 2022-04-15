@@ -1,0 +1,50 @@
+{
+ "properties": {
+  "displayName": "Federated-Core-Initiative-Deploy-Governance-Sub_TEST",
+  "policyType": "Custom",
+  "description": "Contains Federated-Core-Initiative to Deploy Governance policies",
+  "metadata": {
+   "category": "Federated-Core-Policies",
+   "createdBy": "ba1c0023-3d8c-4a52-a606-662618382297",
+   "createdOn": "2022-03-15T08:54:14.63363Z",
+   "updatedBy": "78635b2e-1bc2-4109-8c5c-ca49474d18a6",
+   "updatedOn": "2022-04-15T16:34:51.905771Z",
+   "parameterScopes": {
+    "resourceGroupLocation": "/providers/Microsoft.Management/managementgroups/GLOBAL_TEST",
+    "eventHubDetails": "/subscriptions/ec058181-b853-4412-8120-a9da70c98fac/resourcegroups/rg-logmgmt-we1-prd"
+   }
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "11447868017935727373",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cdfcce10-4578-4ecd-9703-530938e4abcb",
+    "parameters": {
+     "resourceGroupName": {
+      "value": "rg-defender-conf-prd"
+     },
+     "resourceGroupLocation": {
+      "value": "west europe"
+     },
+     "createResourceGroup": {
+      "value": true
+     },
+     "eventHubDetails": {
+      "value": "/subscriptions/ec058181-b853-4412-8120-a9da70c98fac/resourceGroups/rg-logmgmt-we1-prd/providers/Microsoft.EventHub/namespaces/eventhub-logmgmt-we1-prd/eventhubs/evhub-logmgmt-az-defender-we1-prd/authorizationrules/defenderwrite"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "10314215542713451005",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2370a3c1-4a25-4283-a91a-c9c1a145fb2f",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/providers/Microsoft.Management/managementgroups/GLOBAL_TEST/providers/Microsoft.Authorization/policySetDefinitions/Federated-Core-Initiative-Deploy-GOV-Sub_TEST",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "Federated-Core-Initiative-Deploy-GOV-Sub_TEST"
+}
